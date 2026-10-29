@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import SectionHeading from '../components/SectionHeading';
 import { featuredProjects } from '../data/projects';
 import ProjectCard from '../components/ProjectCard';
+import image from '../assets/image.png'
 
 const skills = [
   'HTML5',
@@ -86,7 +87,7 @@ export default function HomePage() {
           <div className="absolute inset-6 -z-10 rounded-full bg-cyan-500/20 blur-3xl" />
           <div className="relative overflow-hidden rounded-[2rem] border border-cyan-400/20 bg-slate-900/80 p-3 shadow-[0_28px_80px_rgba(14,116,144,0.2)]">
             <img
-              src="/src/assets/image.png"
+              src={image}
               alt="Nayem Mostofa portrait"
               className="h-[540px] w-full rounded-[1.5rem] object-cover"
             />
